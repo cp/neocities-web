@@ -1,7 +1,7 @@
 .row
   .span12.text-center
     h1 Web Sites on NeoCities
-    p If you like a site, don't forget to bookmark it!<br>Visitor counts are updated hourly.<br>Want to make your own site? <a href="/new">Click here</a>!
+    p If you like a site, don't forget to bookmark it!<br>Visitor counts are updated hourly.<br>Want to make your own site? <a href="/new">Click here</a>!<br><a href="?order_by=hits">Sort by hits</a>
 
   - @sites.each_with_index do |site,i|
     - if i.even? && i != 0
